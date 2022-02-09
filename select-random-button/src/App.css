@@ -1,3 +1,43 @@
+#myCanvas{
+  color: white;
+}
+
+#canvas-wrap {
+  position:relative 
+ } /* Make this a positioned parent */
+
+
+ #button1 {
+  background-color: aqua;
+
+  position:absolute; top:0px; left:0px;
+}
+
+#button2 {
+  background-color: aqua;
+
+  position:absolute; top:128px; left:512px;
+}
+
+#button3 {
+  background-color: aqua;
+
+  position:absolute; top:256px; left:128px;
+}
+
+#button4 {
+  background-color: aqua;
+
+  position:absolute; top:356px; left:800px;
+}
+
+#selectRandomButton{
+  background-color: palevioletred;
+
+  position:absolute; top:20px; left:820px;
+
+}
+
 .App {
   text-align: center;
 }
