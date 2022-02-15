@@ -1,4 +1,4 @@
-import React, {useEffect, useRef, useState} from 'react';
+import React, {useState, useEffect, useRef} from 'react';
 import './App.css';
 import Buttons from './components/Buttons';
 
@@ -7,12 +7,9 @@ import Buttons from './components/Buttons';
 
 const App = () => {
   
-  const canvas = useRef(null);
+  const [state, setState] = useState("a");
 
-  function rand(items) {
-    // "~~" for a closest "int"
-    return items[Math.floor(Math.random()*items.length)];
-  }
+  const canvas = useRef(null);
 
   useEffect(() => {
     if (canvas) {

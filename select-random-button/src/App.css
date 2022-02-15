@@ -38,6 +38,13 @@
 
 }
 
+#resetButton{
+  background-color: palevioletred;
+
+  position:absolute; top:40px; left:948px;
+
+}
+
 .App {
   text-align: center;
 }
